@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Formación virtual en el SENA',
+    descripcionCurso:
+      'El SENA cuenta con formación profesional virtual la cual tiene características especiales para su desarrollo, así mismo, conozca las diferentes oportunidades de formación e inserción laboral que ofrecemos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,28 +32,40 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La formación virtual en el SENA',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Definición',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Características',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Ventajas',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Recursos para la formación',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Evaluación',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Oportunidades de formación e inserción laboral',
+            hash: 't_1_6',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -61,27 +74,6 @@ export default {
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'glosario',
-        icono: 'fas fa-sort-alpha-down',
-        titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
-        icono: 'fas fa-book',
-        titulo: 'Referencias bibliográficas',
-        nombreRuta: 'referencias',
       },
       {
         icono: 'fas fa-file-pdf',
@@ -140,10 +132,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -153,8 +144,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -164,26 +154,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -191,29 +177,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
+          nombre: 'Nombre responsable',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
+          nombre: 'Nombre responsable',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Nombre responsable',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Nombre responsable',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
       ],
     },
   ],
