@@ -2,21 +2,110 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 56%
+    right: 23%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 17%
+    right: 70%
+  &-3
+    animation: float1 2s ease-in-out infinite alternate
+    position: absolute
+    top: 68%
+    right: 87%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/temas/mini-portada.png") !important
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 10px
+      font-size: 1.4rem
+
+
 .text-1
   color: $color-sistema-texto !important 
+.bg-1
+  background-color: #006E3C
+.bg-2
+  background-color: #39A900
+
+.cajon.color-primario
+  z-index: 0
+.img-esp 
+  position: relative
+  margin-left: -32%
+  z-index: 999
+  @media (max-width: 992px)
+    margin-left: 0%
+
+.num     
+  font-size: 24px
+  font-weight: bolder
+  background-color: #FFCE40
+  width: 40px
+  height: 40px
+  border-radius: 5px 
+  span
+    align-content: center
+    justify-content: center
+    display: flex
+.col-number 
+  display: flex
+  flex-direction: column
+  align-items: center
+.num-dots 
+  flex: 1
+  display: flex
+  justify-content: center
+  padding: 5px 0
+.num-dots:after 
+  content: ""
+  display: block
+  width: 0
+  height: 100%
+  border-left: 5px dotted #FACBA8
+
+.tema1-2 span.text-bold
+  font-size: 24px
+  color: #006E3C
+  margin-right: 10px !important
+  margin-top: -5px
+ol.tema1-2 
+  border-top: 1px solid #707070  
+  border-bottom: 1px solid #707070
+.tema1-2.lista-ol--separador li
+  border-color: #707070
+.tema1-3 .tarjeta img
+  width: 120px
+  margin: 0 auto
+.tema1-4 .acordion__accion__btn--b 
+  border-color: #FFFFFF
+  background-color: #FFCE40
+  box-shadow: 1px 1px 10px 2px #5e5e5ea3
+.tema1-4.acordion .acordion__activo  
+  background-color: #39A900 !important
+  border-radius: 24px !important
+  transition: all 0.3s ease-out
+.tema1-4.acordion .bg-white
+  border-bottom: 1px solid #AFAFAF
+  border-radius: 0px
+  transition: all 0.3s ease-out
+.tema1-6 .anexo
+  background-color: #CCE9BD
+.tema1-6 .anexo *
+  color: $color-sistema-texto !important 
+
+
+
