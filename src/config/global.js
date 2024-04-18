@@ -151,6 +151,41 @@ export default {
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
+        {
+          nombre: 'Diana Patricia Carmona Milian',
+          cargo: 'E-pedagogo',
+          centro: 'Centro de Tecnologías Agroindustriales - Regional Valle',
+        },
+        {
+          nombre: 'María Cecilia Aroca Díaz',
+          cargo: 'E-pedagogo',
+          centro: 'Centro de Tecnologías Agroindustriales - Regional Valle',
+        },
+        {
+          nombre: 'Marisol Báez Solano',
+          cargo: 'E-pedagogo',
+          centro: 'Centro de Tecnologías Agroindustriales - Regional Valle',
+        },
+        {
+          nombre: 'Frankli Gómez Cardona',
+          cargo: 'E-pedagogo',
+          centro: 'Centro de Tecnologías Agroindustriales - Regional Valle',
+        },
+        {
+          nombre: 'Humberto Amaya Alvear',
+          cargo: 'E-pedagogo',
+          centro: 'Centro de Tecnologías Agroindustriales - Regional Valle',
+        },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro para la Industria de la Comunicación Gráfica',
+        },
       ],
     },
     {
