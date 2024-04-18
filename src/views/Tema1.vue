@@ -13,8 +13,8 @@
       .col-lg-7.ps-lg-0(data-aos="fade-left")
         .bg-1.p-4.h-100.align-items-center.d-flex
           .bg-white.p-4
-            p El SENA desde su oferta académica busca facilitar el acceso a la formación en diversos ambientes y modalidades. En relación con los ambientes de formación, el Aprendiz según sus necesidades, podrá elegir programas presenciales, virtuales o com
-            p.mb-0 En los programas de formación titulada, encontramos planes técnicos, tecnológicos y especializaciones tecnológicas.
+            p El SENA desde su oferta académica busca facilitar el acceso a la formación en diversos ambientes y modalidades. En relación con los ambientes de formación, el Aprendiz según sus necesidades, podrá elegir programas presenciales, virtuales o complementarias.
+            p.mb-0 En los programas de formación titulada, encontramos programas técnicos, tecnológicos y especializaciones tecnológicas.
 
 
     Separador
