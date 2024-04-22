@@ -82,7 +82,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -184,7 +184,8 @@ export default {
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
           cargo: 'Corrección de estilo',
-          centro: 'Centro para la Industria de la Comunicación Gráfica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -199,11 +200,6 @@ export default {
         {
           nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
