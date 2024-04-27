@@ -60,7 +60,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3  Ventajas
     
-    p.mb-5(data-aos="fade") De acuerdo con el Ministerio de Educación Nacional, la formación virtual tiene múltiples fortalezas entre ellas, que se ajusta a las necesidades y tiempos de los aprendices, permitiéndoles realizar un proceso educativo en cualquier momento y lugar. En este sentido, facilita el acceso a la educación a las personas que se encuentran en zonas de difícil acceso, trabajan y requieren una mayor flexibilidad de horarios.
+    p.mb-5(data-aos="fade") De acuerdo con el Ministerio de Educación Nacional, la formación virtual tiene múltiples fortalezas, entre ellas, que se ajusta a las necesidades y tiempos de los aprendices, permitiéndoles realizar un proceso educativo en cualquier momento y lugar. En este sentido, facilita el acceso a la educación a las personas que se encuentran en zonas de difícil acceso, trabajan y requieren una mayor flexibilidad de horarios.
     
     .tarjeta--container.tema1-3.row.mb-5(data-aos="fade-down")
       .col-md.tarjeta.color-primario.p-5

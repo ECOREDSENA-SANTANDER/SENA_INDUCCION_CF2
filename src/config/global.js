@@ -80,6 +80,21 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'glosario',
+        icono: 'fas fa-sort-alpha-down',
+        titulo: 'Glosario',
+      },
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
+      {
+        icono: 'fas fa-book',
+        titulo: 'Referencias bibliográficas',
+        nombreRuta: 'referencias',
+      },
+      {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
         download: 'downloads/CF02_CFA.pdf',
@@ -98,32 +113,79 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Evaluación',
+      referencia:
+        'Acuerdo 007 de 2012 [Servicio Nacional de Aprendizaje SENA]. Por el cual se adopta el reglamento del aprendiz SENA. Mayo 3 de 2012',
+      tipo: 'PDF',
+      descarga: '/downloads/Reglamento_Aprendiz_Acuerdo.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Formación ',
+      referencia:
+        'SENA, (2013). Proyecto Educativo Institucional [Ebook]. Retrieved 3 June 2021, from https://hdl.handle.net/11404/3253.',
+      tipo: 'PDF',
+      descarga: '/downloads/PEI_SENA.pdf',
+    },
+    {
+      tema: 'Formación ',
+      referencia:
+        'Amorós, A. (2011). Desarrollo e implementación de la formación por proyectos en el SENA [Ebook]. Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ).',
+      tipo: 'PDF',
+      descarga: '/downloads/Desarrollo_implementacion_formacion_proyectos.pdf',
+    },
+    {
+      tema: 'Formación ',
+      referencia:
+        'Zapata, L. (2018). El instructor y la formación por proyectos en el SENA. Rutas De formación: Prácticas Y Experiencias, 5, 63–70. https://doi.org/10.24236/24631388.n5.2017.1308',
+      tipo: 'PDF',
+      descarga: '/downloads/Instructor_y_formacion_poryectos_SENA.pdf',
+    },
+    {
+      tema: 'Formación ',
+      referencia:
+        'SENA, (2014). Gestión de proyectos de formación desde la ingeniería pedagógica. ',
+      tipo: 'PDF',
+      descarga: '/downloads/Gestion_proyectos_formacion.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aula virtual',
+      significado:
+        'Entorno telemático en el cual el aprendiz tiene acceso a la red (intranet o internet) para desarrollar un proceso de aprendizaje. Permite la consulta de la documentación de estudio, el desarrollo de actividades de aprendizaje y la utilización de herramientas de interacción como foros de discusión y correo electrónico, entre otros',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'TIC',
+      significado:
+        'Las Tecnologías de la Información y la Comunicación tomaron fuerza en el mundo a partir del siglo XX. Una época colmada de cambios tecnológicos, de la creación de la Internet (1969) de los avances en cibernética, informática, telecomunicaciones y otras ciencias. <br>Sin embargo, su auge se ha evidenciado en el S. XXI, en el cual los sujetos encuentran cada vez más, la necesidad de tecnología para llevar a cabo sus actividades diarias.<br>Las TIC han permeado el ámbito empresarial, bancario, comercial, de ocio y en general la mayoría de los espacios de interacción y comunicación de la humanidad, siendo la educación uno de los ambientes que más ha sacado provecho de estos desarrollos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'SENA. (2018). Página oficial www.sena.edu.co: Familia Sena – Egresados.',
+    },
+    {
+      referencia:
+        'SENA. (2018). Página oficial www.sena.edu.co: Observatorio Laboral y ocupacional.',
+    },
+    {
+      referencia:
+        'SENA. (2018). Página oficial www.sena.edu.co: Internacionalización SENA.',
+    },
+    {
+      referencia:
+        'SENA (2003). Metodología para evaluar y certificar competencias laborales.',
+    },
+    {
+      referencia:
+        '[Imagen de convenios con instituciones de educación superior 2016]. ',
+      link:
+        'http://www.sena.edu.co/es-co/comunidades/egresados/Paginas/default.aspx',
+    },
+    {
+      referencia: '[Imagen de fondo emprender 2018]. ',
+      link: 'http://www.fondoemprender.com/SitePages/Home.aspx',
     },
   ],
   creditos: [
