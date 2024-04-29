@@ -68,7 +68,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/icono1.svg', alt='')
-        p.text-1.text-center.mb-0 Permite llegar a las regiones más apartadas, traspasar fronteras, apoyar a las personas que tienen menos recursos económicos con educación de alta calidad. 
+        p.text-center.mb-0 Permite llegar a las regiones más apartadas, traspasar fronteras, apoyar a las personas que tienen menos recursos económicos con educación de alta calidad. 
 
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
@@ -82,7 +82,7 @@
           .col-6
             figure
               img(src='@/assets/curso/temas/icono3.svg', alt='')
-        p.text-1.text-center.mb-0 Facilita el acceso a nuevos objetos de conocimiento: materiales interactivos y dinámicos que propician la comprensión de diversos temas.   
+        p.text-center.mb-0 Facilita el acceso a nuevos objetos de conocimiento: materiales interactivos y dinámicos que propician la comprensión de diversos temas.   
 
 
     Separador
@@ -97,37 +97,37 @@
         AcordionA.tema1-4(tipo="b" clase-tarjeta="tarjeta bg-white")
           .row.align-items-center(titulo="Programa formativo")
             .col-md-7.mb-4.mb-md-0
-              p.mb-0 Se trata de la tecnología o especialización tecnológica que el instructor liderará. Su construcción obedece a una necesidad del sector empresarial.
+              p.mb-0.text-white Se trata de la tecnología o especialización tecnológica que el instructor liderará. Su construcción obedece a una necesidad del sector empresarial.
             .col-md-2
             .col-md-2
               img.w-50(src='@/assets/curso/temas/tema1-4_ico1.svg', alt='')
           .row.align-items-center(titulo="Diseño curricular")
             .col-md-8.mb-4.mb-md-0
-              p.mb-0 Es un documento que muestra la estructura general del programa, precisa características y proyecciones del contexto laboral y ocupacional, competencias que lo conforman, resultados de aprendizaje y tipo de formación. 
+              p.mb-0.text-white Es un documento que muestra la estructura general del programa, precisa características y proyecciones del contexto laboral y ocupacional, competencias que lo conforman, resultados de aprendizaje y tipo de formación. 
             .col-md-1
             .col-md-2
               img.w-50(src='@/assets/curso/temas/tema1-4_ico2.svg', alt='')
           .row.align-items-center(titulo="Planeación pedagógica")
             .col-md-8.mb-4.mb-md-0
-              p.mb-0 Antes de entrar a realizar un proceso de formación es indispensable realizar la caracterización, de tal forma que se identifiquen aspectos como: necesidades de formación de los aprendices, estilos de aprendizaje y adaptación de los currículos, los lineamientos institucionales y la legislación vigente. 
+              p.mb-0.text-white Antes de entrar a realizar un proceso de formación es indispensable realizar la caracterización, de tal forma que se identifiquen aspectos como: necesidades de formación de los aprendices, estilos de aprendizaje y adaptación de los currículos, los lineamientos institucionales y la legislación vigente. 
             .col-md-1
             .col-md-2
               img.w-75(src='@/assets/curso/temas/tema1-4_ico3.svg', alt='')
           .row.align-items-center(titulo="Proyecto formativo")
             .col-md-8.mb-4.mb-md-0
-              p.mb-0 Acciones integradoras e integradas entre sí, realizadas por los aprendices con la orientación del instructor a lo largo del proceso formativo. Son objeto directo de aprendizaje; esto indica que existe una relación directa entre lo que se debe hacer en el centro formativo y lo que más tarde se hará en el mundo laboral. 
+              p.mb-0.text-white Acciones integradoras e integradas entre sí, realizadas por los aprendices con la orientación del instructor a lo largo del proceso formativo. Son objeto directo de aprendizaje; esto indica que existe una relación directa entre lo que se debe hacer en el centro formativo y lo que más tarde se hará en el mundo laboral. 
             .col-md-1
             .col-md-2
               img.w-75(src='@/assets/curso/temas/tema1-4_ico4.svg', alt='')
           .row.align-items-center(titulo="Resultado de aprendizaje")
             .col-md-8.mb-4.mb-md-0
-              p.mb-0 El resultado de aprendizaje presenta una relación de las evidencias junto con los resultados y su respectiva ponderación dentro del proceso de evaluación. 
+              p.mb-0.text-white El resultado de aprendizaje presenta una relación de las evidencias junto con los resultados y su respectiva ponderación dentro del proceso de evaluación. 
             .col-md-1
             .col-md-2
               img.w-50(src='@/assets/curso/temas/tema1-4_ico5.svg', alt='')
           .row.align-items-center(titulo="Actividad de aprendizaje")
             .col-md-8.mb-4.mb-md-0
-              p.mb-0 Acciones integradoras e integradas entre sí, realizadas por los aprendices con la orientación del instructor a lo largo del proceso formativo. Son objeto directo de aprendizaje; esto indica que existe una relación directa entre lo que se debe hacer en el Centro formativo y lo que más tarde se hará en el mundo laboral. 
+              p.mb-0.text-white Acciones integradoras e integradas entre sí, realizadas por los aprendices con la orientación del instructor a lo largo del proceso formativo. Son objeto directo de aprendizaje; esto indica que existe una relación directa entre lo que se debe hacer en el Centro formativo y lo que más tarde se hará en el mundo laboral. 
             .col-md-1
             .col-md-2
               img.w-75(src='@/assets/curso/temas/tema1-4_ico6.svg', alt='')
